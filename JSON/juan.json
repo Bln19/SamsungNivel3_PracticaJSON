@@ -1,0 +1,227 @@
+{
+    "supermercados": [
+        { 
+            "nombre": "Supermercado CompraFacil",
+            "direccion": "Calle LasCompras, 123",
+            "geolocalizacion": {
+                "latitud": 39.4704,
+                "longitud": -0.3768
+            },
+            "secciones": [
+                {
+                    "nombre": "fruteria",           
+                    "productos": [
+                        {
+                            "nombre": "tomate",
+                            "descripcion": "tomate de huerta valenciana",
+                            "origen": "España",
+                            "precio": 3.10,
+                            "fechaEntrada": "30/05/2023 1:00 a.m.",
+                            "fechaCaducidad": "20/06/2023 1:00 a.m.",
+                            "oferta": true,
+                            "adquirido": true
+                        },
+                        {
+                            "nombre": "Manzana",
+                            "descripcion": "Manzana Fuji",
+                            "origen": "España",
+                            "precio": 2.50,
+                            "unidad": "kg",
+                            "oferta": false,
+                            "adquirido": true
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Carnicería",
+                    "productos": [
+                        {
+                            "nombre": "Filete de ternera",
+                            "descripcion": "Filete de ternera de calidad",
+                            "origen": "España",
+                            "precio": 15.99,
+                            "unidad": "kg",
+                            "fechaEntrada": "30/05/2023 1:00 a.m.",
+                            "fechaCaducidad": "20/06/2023 1:00 a.m.",
+                            "oferta": true,
+                            "adquirido": true
+                        },
+                        {
+                        "nombre": "Chuletas de cerdo",
+                        "descripcion": "Chuletas de cerdo ibérico",
+                        "origen": "España",
+                        "precio": 9.99,
+                        "unidad": "kg",
+                        "fechaEntrada": "01/06/2023 3:00 p.m.",
+                        "fechaCaducidad": "10/06/2023 3:00 p.m.",
+                        "oferta": false,
+                        "adquirido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Supermercado AhorraPlus",
+            "direccion": "Avenida de los Descuentos, 200",
+            "geolocalizacion": {
+                "latitud": 39.4699,
+                "longitud": -0.3763
+            },
+            "secciones": [
+                {
+                    "nombre": "fruteria",           
+                    "productos": [
+                        {
+                            "nombre": "Naranjas",
+                            "descripcion": "Naranjas de Valencia",
+                            "origen": "España",
+                            "precio": 2.99,
+                            "unidad": "kg",
+                            "oferta": true,
+                            "adquirido": true
+                        },
+                        {
+                            "nombre": "Plátano",
+                            "descripcion": "Plátano de Canarias",
+                            "origen": "España",
+                            "precio": 1.79,
+                            "unidad": "kg",
+                            "oferta": true,
+                            "adquirido": true
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Carnicería",
+                    "productos": [
+                        {
+                            "nombre": "Pollo entero",
+                            "descripcion": "Pollo de corral",
+                            "origen": "España",
+                            "precio": 6.99,
+                            "unidad": "kg",
+                            "fechaEntrada": "02/06/2023 9:00 a.m.",
+                            "fechaCaducidad": "09/06/2023 9:00 a.m.",
+                            "oferta": true,
+                            "adquirido": false
+                        },
+                        {
+                            "nombre": "Chuletas de cordero",
+                            "descripcion": "Chuletas de cordero lechal",
+                            "origen": "España",
+                            "precio": 12.50,
+                            "unidad": "kg",
+                            "oferta": false,
+                            "adquirido": false
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Pescadería",
+                    "productos": [
+                        {
+                            "nombre": "Merluza",
+                            "descripcion": "Merluza fresca del Cantábrico",
+                            "origen": "España",
+                            "precio": 10.99,
+                            "unidad": "kg",
+                            "fechaEntrada": "28/05/2023 11:00 a.m.",
+                            "fechaCaducidad": "12/06/2023 11:00 a.m.",
+                            "oferta": true,
+                            "adquirido": true
+                        },
+                        {
+                            "nombre": "Calamares",
+                            "descripcion": "Calamares limpios",
+                            "origen": "España",
+                            "precio": 7.99,
+                            "unidad": "kg",
+                            "oferta": false,
+                            "adquirido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Supermercado Economiza",
+            "direccion": "Calle del Ahorro, 300",
+            "geolocalizacion": {
+                "latitud": 39.4552,
+                "longitud": -0.3871
+            },
+            "secciones": [
+                {
+                    "nombre": "panaderia",
+                    "productos": [
+                        {
+                            "nombre": "Baguette",
+                            "descripcion": "Baguette francesa crujiente",
+                            "origen": "Francia",
+                            "precio": 1.20,
+                            "unidad": "unidad",
+                            "oferta": true,
+                            "adquirido": false
+                        },
+                        {
+                            "nombre": "Croissant",
+                            "descripcion": "Croissant recién horneado",
+                            "origen": "Francia",
+                            "precio": 0.80,
+                            "unidad": "unidad",
+                            "oferta": false,
+                            "adquirido": true
+                        }
+                    ]
+                },
+                {
+                    "nombre": "charcuteria",
+                    "productos": [
+                        {
+                            "nombre": "Jamón serrano",
+                            "descripcion": "Jamón serrano de calidad",
+                            "origen": "España",
+                            "precio": 9.50,
+                            "unidad": "kg",
+                            "oferta": true,
+                            "adquirido": true
+                        },
+                        {
+                            "nombre": "Salchichón",
+                            "descripcion": "Salchichón ibérico",
+                            "origen": "España",
+                            "precio": 6.99,
+                            "unidad": "kg",
+                            "oferta": false,
+                            "adquirido": false
+                        }
+                    ]
+                },
+                {
+                    "nombre": "lácteos",
+                    "productos": [
+                        {
+                            "nombre": "Leche",
+                            "descripcion": "Leche entera",
+                            "origen": "España",
+                            "precio": 0.99,
+                            "unidad": "litro",
+                            "oferta": true,
+                            "adquirido": true
+                        },
+                        {
+                            "nombre": "Queso",
+                            "descripcion": "Queso manchego",
+                            "origen": "España",
+                            "precio": 4.75,
+                            "unidad": "kg",
+                            "oferta": false,
+                            "adquirido": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

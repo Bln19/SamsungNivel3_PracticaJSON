@@ -1,0 +1,225 @@
+<supermercados>
+    <supermercado>
+        <nombre>Supermercado CompraFacil</nombre>
+        <direccion>Calle LasCompras, 123</direccion>
+        <geolocalizacion>
+            <latitud>39.4704</latitud>
+            <longitud>-0.3768</longitud>
+        </geolocalizacion>
+        <secciones>
+            <seccion>
+                <nombre>fruteria</nombre>
+                <productos>
+                    <producto>
+                        <nombre>tomate</nombre>
+                        <descripcion>tomate de huerta valenciana</descripcion>
+                        <origen>España</origen>
+                        <precio>3.10</precio>
+                        <fechaEntrada>30/05/2023 1:00 a.m.</fechaEntrada>
+                        <fechaCaducidad>20/06/2023 1:00 a.m.</fechaCaducidad>
+                        <oferta>true</oferta>
+                        <adquirido>true</adquirido>
+                    </producto>
+                    <producto>
+                        <nombre>Manzana</nombre>
+                        <descripcion>Manzana Fuji</descripcion>
+                        <origen>España</origen>
+                        <precio>2.50</precio>
+                        <unidad>kg</unidad>
+                        <oferta>false</oferta>
+                        <adquirido>true</adquirido>
+                    </producto>
+                </productos>
+            </seccion>
+            <seccion>
+                <nombre>Carnicería</nombre>
+                <productos>
+                    <producto>
+                        <nombre>Filete de ternera</nombre>
+                        <descripcion>Filete de ternera de calidad</descripcion>
+                        <origen>España</origen>
+                        <precio>15.99</precio>
+                        <unidad>kg</unidad>
+                        <fechaEntrada>30/05/2023 1:00 a.m.</fechaEntrada>
+                        <fechaCaducidad>20/06/2023 1:00 a.m.</fechaCaducidad>
+                        <oferta>true</oferta>
+                        <adquirido>true</adquirido>
+                    </producto>
+                    <producto>
+                        <nombre>Chuletas de cerdo</nombre>
+                        <descripcion>Chuletas de cerdo ibérico</descripcion>
+                        <origen>España</origen>
+                        <precio>9.99</precio>
+                        <unidad>kg</unidad>
+                        <fechaEntrada>01/06/2023 3:00 p.m.</fechaEntrada>
+                        <fechaCaducidad>10/06/2023 3:00 p.m.</fechaCaducidad>
+                        <oferta>false</oferta>
+                        <adquirido>false</adquirido>
+                    </producto>
+                </productos>
+            </seccion>
+        </secciones>
+    </supermercado>
+    <supermercado>
+        <nombre>Supermercado AhorraPlus</nombre>
+        <direccion>Avenida de los Descuentos, 200</direccion>
+        <geolocalizacion>
+            <latitud>39.4699</latitud>
+            <longitud>-0.3763</longitud>
+        </geolocalizacion>
+        <secciones>
+            <seccion>
+                <nombre>fruteria</nombre>
+                <productos>
+                    <producto>
+                        <nombre>Naranjas</nombre>
+                        <descripcion>Naranjas de Valencia</descripcion>
+                        <origen>España</origen>
+                        <precio>2.99</precio>
+                        <unidad>kg</unidad>
+                        <oferta>true</oferta>
+                        <adquirido>true</adquirido>
+                    </producto>
+                    <producto>
+                        <nombre>Plátano</nombre>
+                        <descripcion>Plátano de Canarias</descripcion>
+                        <origen>España</origen>
+                        <precio>1.79</precio>
+                        <unidad>kg</unidad>
+                        <oferta>true</oferta>
+                        <adquirido>true</adquirido>
+                    </producto>
+                </productos>
+            </seccion>
+            <seccion>
+                <nombre>Carnicería</nombre>
+                <productos>
+                    <producto>
+                        <nombre>Pollo entero</nombre>
+                        <descripcion>Pollo de corral</descripcion>
+                        <origen>España</origen>
+                        <precio>6.99</precio>
+                        <unidad>kg</unidad>
+                        <fechaEntrada>02/06/2023 9:00 a.m.</fechaEntrada>
+                        <fechaCaducidad>09/06/2023 9:00 a.m.</fechaCaducidad>
+                        <oferta>true</oferta>
+                        <adquirido>false</adquirido>
+                    </producto>
+                    <producto>
+                        <nombre>Chuletas de cordero</nombre>
+                        <descripcion>Chuletas de cordero lechal</descripcion>
+                        <origen>España</origen>
+                        <precio>12.50</precio>
+                        <unidad>kg</unidad>
+                        <oferta>false</oferta>
+                        <adquirido>false</adquirido>
+                    </producto>
+                </productos>
+            </seccion>
+            <seccion>
+                <nombre>Pescadería</nombre>
+                <productos>
+                    <producto>
+                        <nombre>Merluza</nombre>
+                        <descripcion>Merluza fresca del Cantábrico</descripcion>
+                        <origen>España</origen>
+                        <precio>10.99</precio>
+                        <unidad>kg</unidad>
+                        <fechaEntrada>28/05/2023 11:00 a.m.</fechaEntrada>
+                        <fechaCaducidad>12/06/2023 11:00 a.m.</fechaCaducidad>
+                        <oferta>true</oferta>
+                        <adquirido>true</adquirido>
+                    </producto>
+                    <producto>
+                        <nombre>Calamares</nombre>
+                        <descripcion>Calamares limpios</descripcion>
+                        <origen>España</origen>
+                        <precio>7.99</precio>
+                        <unidad>kg</unidad>
+                        <oferta>false</oferta>
+                        <adquirido>false</adquirido>
+                    </producto>
+                </productos>
+            </seccion>
+        </secciones>
+    </supermercado>
+    <supermercado>
+        <nombre>Supermercado Economiza</nombre>
+        <direccion>Calle del Ahorro, 300</direccion>
+        <geolocalizacion>
+            <latitud>39.4552</latitud>
+            <longitud>-0.3871</longitud>
+        </geolocalizacion>
+        <secciones>
+            <seccion>
+                <nombre>panaderia</nombre>
+                <productos>
+                    <producto>
+                        <nombre>Baguette</nombre>
+                        <descripcion>Baguette francesa crujiente</descripcion>
+                        <origen>Francia</origen>
+                        <precio>1.20</precio>
+                        <unidad>unidad</unidad>
+                        <oferta>true</oferta>
+                        <adquirido>false</adquirido>
+                    </producto>
+                    <producto>
+                        <nombre>Croissant</nombre>
+                        <descripcion>Croissant recién horneado</descripcion>
+                        <origen>Francia</origen>
+                        <precio>0.80</precio>
+                        <unidad>unidad</unidad>
+                        <oferta>false</oferta>
+                        <adquirido>true</adquirido>
+                    </producto>
+                </productos>
+            </seccion>
+            <seccion>
+                <nombre>charcuteria</nombre>
+                <productos>
+                    <producto>
+                        <nombre>Jamón serrano</nombre>
+                        <descripcion>Jamón serrano de calidad</descripcion>
+                        <origen>España</origen>
+                        <precio>9.50</precio>
+                        <unidad>kg</unidad>
+                        <oferta>true</oferta>
+                        <adquirido>true</adquirido>
+                    </producto>
+                    <producto>
+                        <nombre>Salchichón</nombre>
+                        <descripcion>Salchichón ibérico</descripcion>
+                        <origen>España</origen>
+                        <precio>6.99</precio>
+                        <unidad>kg</unidad>
+                        <oferta>false</oferta>
+                        <adquirido>false</adquirido>
+                    </producto>
+                </productos>
+            </seccion>
+            <seccion>
+                <nombre>lácteos</nombre>
+                <productos>
+                    <producto>
+                        <nombre>Leche</nombre>
+                        <descripcion>Leche entera</descripcion>
+                        <origen>España</origen>
+                        <precio>0.99</precio>
+                        <unidad>litro</unidad>
+                        <oferta>true</oferta>
+                        <adquirido>true</adquirido>
+                    </producto>
+                    <producto>
+                        <nombre>Queso</nombre>
+                        <descripcion>Queso manchego</descripcion>
+                        <origen>España</origen>
+                        <precio>4.75</precio>
+                        <unidad>kg</unidad>
+                        <oferta>false</oferta>
+                        <adquirido>false</adquirido>
+                    </producto>
+                </productos>
+            </seccion>
+        </secciones>
+    </supermercado>
+</supermercados>
